@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
+import Routes from './routes/Routes';
 
 ReactDOM.render(
-  <div>
-    <h1>Welcome To React!</h1>
-  </div>
+  <Routes />
   , document.getElementById('root'));
 registerServiceWorker();
