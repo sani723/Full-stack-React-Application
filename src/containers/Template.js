@@ -13,7 +13,7 @@ class Template extends Component {
         <div>
           <NavDrawer />
           <Header>
-            <h1>Full-stack React Application</h1>
+            <h3>Full-stack React Application</h3>
           </Header>
           <Main>
             {this.props.children}
